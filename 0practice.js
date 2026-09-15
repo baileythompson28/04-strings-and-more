@@ -25,7 +25,7 @@ const accessGranted = ValidName && ValidPrefix && ValidClearance && !isBlocked;
 const typeMismatchDetected = clearanceCode !== 7;
 
 const border = "=".repeat(44);
-const title = "GALACTIC ACCESS BADGE";
+const title = "GALACTIC ACCESS BADGE!!!!!!!!";
 const decoratedTitle = ` ${title} `.padStart(34, "*").padEnd(44, "*");
 
 if (accessGranted) {
